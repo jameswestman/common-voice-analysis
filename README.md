@@ -55,7 +55,7 @@ be represented adequately.
 The formula for this measure is `(freq - target_freq) / (target_freq - 1)`. The
 denominator here is a correction factor that takes into account the growth of
 the dataset when more words are added; if you want me to explain in detail how I
-came up with the formula, ask in the comments.
+came up with the formula, create an issue and I'll add an explanation.
 
 Anyway, if we run this script, we get a new CSV file,
 `07_common_voice_word_representation.csv`. This is the data we're looking for.
